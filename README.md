@@ -17,7 +17,7 @@ This repository provides a PyTorch implementation for a MNIST classifer using [M
 <br/>
 
 ## Examples of Usage
-
-´´´
+```bash
 python Mnist_test.py
-´´´
+```
+Please see [here](https://github.com/ftobarm/M-OctConvMNIST/blob/main/Mnist_test.py) for extra arguments and a description of them
