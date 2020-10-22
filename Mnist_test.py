@@ -163,7 +163,7 @@ def main(config):
                 with open('{}/test_accuracy.pickle'.format(save_path), 'wb') as f: 
                     pickle.dump(test_accuracy, f)
                 torch.save(network.state_dict(), '{}/model.pth'.format(save_path))
-    print("MNIST Accuracy: {:.0f}%\n M-OctMNIST-v1 Accuracy: {:.0f}%\n M-OctMNIST-v2 Accuracy: {:.0f}%\n M-OctMNIST-v3 Accuracy: {:.0f}%\n ".format(results[0], results[1], results[2], results[3]))
+    print("MNIST Accuracy: {:.0f}%\nM-OctMNIST-v1 Accuracy: {:.0f}%\nM-OctMNIST-v2 Accuracy: {:.0f}%\nM-OctMNIST-v3 Accuracy: {:.0f}%\n ".format(results[0], results[1], results[2], results[3]))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
